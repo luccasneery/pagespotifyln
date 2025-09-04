@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 45px;
+    margin: auto;
+    padding: 20px;
+    display: block;
+}
+
+p{
+    text-align: justify;
+    text-align: center;
+    color: white;
+}
