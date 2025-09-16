@@ -19,14 +19,138 @@
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 body{
     background-color: #121212;
     font-family: 'CircularSpotify', sans-serif;
     font-weight: 400;
+    color: #fff;
 }
 
-img{
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+main{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.corpo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    align-items: normal;
+
+    inline-size: 100%;
+    min-block-size: 100%;
+    overflow-wrap: break-word;
+    overflow: auto;
+    padding-block-start: 96px;
+}
+
+.logoSpot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: center;
+
+    padding-inline-start: 32px;
+    padding-inline-end: 32px;
+    padding-block-end: 4px;
+
+    min-height: 48px;
+    overflow: hidden;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: content-box;
+}
+
+.page{
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: normal;
+
+    width: 100%;
+
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: 0px;
+}
+
+.form{
+    box-sizing: content-box;
+    padding: 32px;
+    width: 324px;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    text-wrap: balance;
+    text-wrap-mode: initial;
+    text-wrap-style: balance;
+}
+
+.zeroum{
+    display: block;
+    width: 100%;
+}
+
+.zerodois{
+    min-inline-size: 0px;
+    padding-inline: 0px;
+    padding-block-start: 0px;
+    border: 0px;
+}
+
+.zerotres{
+    padding-inline: 0px;
+}
+
+.usuario{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+h1, .usuario {
+    box-sizing: border-box;
+    margin-block: 0;
+}
+
+input{
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    margin-block: 0;
+    min-block-size: 48px;
+    padding-block: 12px;
+    padding-inline: 12px;
+
+    --encore-box-shadow-color: #7c7c7c;
+    
+}
+/*img{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -43,21 +167,10 @@ img{
     box-sizing: content-box;
     padding: 0 24px 4px;
     margin: 50px 0 0 50%;
-}
+}*/
 
-h1{
-    color: white;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 800;
-    text-wrap: balance;
-    text-wrap-mode: initial;
-    text-wrap-style: balance;
-    
-    box-sizing: border-box;
-    margin-block: 0;
-}
 
+/*
 h1, h2, h3{
     font-weight: 800;
 }
@@ -69,3 +182,4 @@ button, .btn{
 small, p, input, label{
     font-weight: 400;
 }
+*/
