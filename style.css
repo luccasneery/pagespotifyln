@@ -19,6 +19,7 @@
     font-style: normal;
 }
 
+
 body{
     background-color: #121212;
     font-family: 'CircularSpotify', sans-serif;
@@ -26,12 +27,39 @@ body{
 }
 
 img{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-end: 4px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-content: normal;
+    box-sizing: content-box;
+    padding: 0 24px 4px;
     margin: 50px 0 0 50%;
 }
 
+h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    text-wrap: balance;
+    text-wrap-mode: initial;
+    text-wrap-style: balance;
+    
+    box-sizing: border-box;
+    margin-block: 0;
+}
+
 h1, h2, h3{
-    font-weight: 900;
+    font-weight: 800;
 }
 
 button, .btn{
