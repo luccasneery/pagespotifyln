@@ -154,7 +154,7 @@ input{
     border: 0;
 }
 
-a{
+#linkopcao{
     font-size: 14px;
     color: #1ed760;
     align-items: center;
@@ -162,7 +162,7 @@ a{
     box-sizing: border-box;
 }
 
-button{
+#buttomavancar{
     margin-block-start: 16px;
     font-weight: 700;
     font-size: 16px;
@@ -187,8 +187,56 @@ button{
     padding-block: 1px;
     padding-inline: 6px;
     padding: 14px 32px;
-
 }
+
+.afterbuttom{
+    margin-top: 16px;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.createaccount{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gmailapple{
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#buttomgoogle{
+    margin-block-start: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    align-self: center;
+    min-inline-size: 0;
+    padding: 0;
+    outline-color: rgba(0, 0, 0, 0);
+    outline-style: solid;
+    outline-width: 3px;
+    outline-offset: 3px;
+    inline-size: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 9999px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 6px;
+    padding: 14px 32px;
+    text-decoration: none;
+}
+
 /*img{
     display: flex;
     flex-direction: row;
