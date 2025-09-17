@@ -133,7 +133,7 @@ h1{
     font-size: 14px;
 }
 
-h1, .usuario {
+h1, .usuario, input {
     box-sizing: border-box;
     margin-block: 0;
 }
@@ -142,13 +142,52 @@ input{
     font-size: 16px;
     font-weight: 400;
     border-radius: 4px;
-    margin-block: 0;
+    margin-block: 10px;
     min-block-size: 48px;
     padding-block: 12px;
     padding-inline: 12px;
+    background-color: #121212;
+    box-shadow: inset 0 0 0 1px;
+    color: #fff;
+    display: block;
+    inline-size: 100%;
+    border: 0;
+}
 
-    --encore-box-shadow-color: #7c7c7c;
-    
+a{
+    font-size: 14px;
+    color: #1ed760;
+    align-items: center;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+button{
+    margin-block-start: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    align-self: center;
+    min-inline-size: 0;
+    padding: 0;
+    outline-color: rgba(0, 0, 0, 0);
+    outline-style: solid;
+    outline-width: 3px;
+    outline-offset: 3px;
+    inline-size: 100%;
+    background-color: #1ed760;
+    border: 0;
+    border-radius: 9999px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 6px;
+    padding: 14px 32px;
+
 }
 /*img{
     display: flex;
